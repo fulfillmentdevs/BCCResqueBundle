@@ -7,11 +7,9 @@
     "license": "MIT",
     "require": {
         "symfony/framework-bundle": ">=2.0,<3.0",
-        "chrisboulton/php-resque": "dev-master",
-        "fulfillmentdevs/php-resque-scheduler": "dev-master"
+        "chrisboulton/php-resque": "dev-master"
     },
     "autoload": {
-        "psr-0": { "BCC\\ResqueBundle": "" }
-    },
-    "target-dir": "BCC/ResqueBundle"
+        "psr-0": { "BCC\\ResqueBundle\\": "" }
+    }
 }
