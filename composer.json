@@ -11,5 +11,6 @@
     },
     "autoload": {
         "psr-0": { "BCC\\ResqueBundle\\": "" }
-    }
+    },
+    "target-dir": ""
 }
